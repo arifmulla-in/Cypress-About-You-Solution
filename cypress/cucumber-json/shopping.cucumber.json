@@ -1,0 +1,136 @@
+[
+  {
+    "description": "    application Regression",
+    "keyword": "Feature",
+    "name": "End to end About You Ecommerce validation",
+    "line": 1,
+    "id": "end-to-end-about-you-ecommerce-validation",
+    "tags": [],
+    "uri": "shopping.feature",
+    "elements": [
+      {
+        "id": "end-to-end-about-you-ecommerce-validation;about-you-products-selection-for-checkout",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "About You products selection for checkout",
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open About You ECommerce Page",
+            "result": {
+              "status": "failed",
+              "duration": 66670000000,
+              "error_message": "AssertionError: Timed out retrying after 60000ms: expected '<div.sc-t6bp6s-0.iVXUcQ>' to have text 'ABOUTYOU', but the text was 'ABOUTYOUYOU'\n    + expected - actual\n\n    -'ABOUTYOUYOU'\n    +'ABOUTYOU'\n\n    at Context.eval (https://en.aboutyou.de/__cypress/tests?p=cypress\\integration\\aboutyou\\BDD\\shopping.feature:64:26)\n    at Context.resolveAndRunStepDefinition (https://en.aboutyou.de/__cypress/tests?p=cypress\\integration\\aboutyou\\BDD\\shopping.feature:12568:29)\n    at Context.eval (https://en.aboutyou.de/__cypress/tests?p=cypress\\integration\\aboutyou\\BDD\\shopping.feature:11889:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I navigate to \"Women\" Category",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I navigate to \"Shoes\" Product",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I select the \"Shoes\" of Size \"36\" for Country \"EU Size\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I see selected \"Shoes\" in Add to Basket List",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-about-you-ecommerce-validation;about-you-products-selection-for-checkout",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "About You products selection for checkout",
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open About You ECommerce Page",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 60000ms: expected '<div.sc-t6bp6s-0.iVXUcQ>' to have text 'ABOUTYOU', but the text was 'ABOUTYOUYOU'\n    + expected - actual\n\n    -'ABOUTYOUYOU'\n    +'ABOUTYOU'\n\n    at Context.eval (https://en.aboutyou.de/__cypress/tests?p=cypress\\integration\\aboutyou\\BDD\\shopping.feature:64:26)\n    at Context.resolveAndRunStepDefinition (https://en.aboutyou.de/__cypress/tests?p=cypress\\integration\\aboutyou\\BDD\\shopping.feature:12568:29)\n    at Context.eval (https://en.aboutyou.de/__cypress/tests?p=cypress\\integration\\aboutyou\\BDD\\shopping.feature:11889:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I navigate to \"Women\" Category",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I navigate to \"Shoes\" Product",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I select the \"Shoes\" of Size \"8\" for Country \"UK Size\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I see selected \"Shoes\" in Add to Basket List",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
